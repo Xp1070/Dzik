@@ -10,8 +10,16 @@
 </head>
 <body>
     <h1 style="text-align: center;">Gra w dzika</h1>
+    <div class="center">
+    <input type="button" onClick="easy()" value="Łatwy">
+    <input type="button" onClick="medium()" value="Średni">
+    <input type="button" onClick="hard()" value="Trudny">
+    <input type="button" onClick="goodLuck()" value="POWODZENIA">
+    </div>
+    <input type="button" onClick="start()" class="center" value="Start!">
     <p id="id" style="font-size: 40px; text-align: center;">1</p>
     <div class="center"><div onClick ="czyDzik()"><img src="foto/dzik.jpg" height="200" syle=""></div></div>
-    <div class="center"><p id="punkty">0</p></div>
+    <div class="center">Punkty <p id="punkty">0</p> | <p id="hp">3</p> Życia</div>
+    <p class="center" id="over"></p>
 </body>
 </html>
